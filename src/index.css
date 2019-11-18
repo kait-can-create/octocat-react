@@ -10,3 +10,70 @@ body {
   margin: 0;
   min-height: 100%;
 }
+
+img {
+  height: 350px;
+  width: auto;
+}
+
+.githubIcon {
+  height: 40px;
+  width: auto;
+  margin: 10px;
+}
+
+.octodex {
+  font-weight: bold;
+  display: flex;
+  align-items:center;
+}
+
+a {
+  padding: .5rem;
+}
+
+a:visited {
+  color:gray;
+}
+
+ul a {
+  text-decoration: none;
+}
+
+.navBar {
+  display:flex;
+}
+
+.navWrapper {
+  display:flex;
+  justify-content: space-between;
+  width: 80%;
+  align-items:center;
+}
+
+.leftNav, .rightNav {
+  display:flex;
+  flex-direction: row;
+  font-size: .8rem;
+}
+
+.leftNav {
+  margin-left: -1.75rem;
+}
+
+.link {
+  color: black;
+}
+
+
+
+.mainContent {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+
+/* flexbox on the ul to style */
